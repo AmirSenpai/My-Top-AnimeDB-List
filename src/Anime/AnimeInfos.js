@@ -4,7 +4,7 @@ export default [
     JpName: "Boku No Hero Academia",
     Date: "2016 - 2024",
     Genre: "Shonen",
-    Picture: "./src/Anime/Pictures/bnha.jpg",
+    Picture: "https://s3.filebin.net/filebin/c267a726f5c73e40e83d61ddc4827cf9d4461cb38b088f34d4d11bbf65dac66e/b308dd7eaba2188074de62b5dfb37de092185e370c1ae2ada1db831f116b8347?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=7pMj6hGeoKewqmMQILjm%2F20240121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240121T222452Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&response-cache-control=max-age%3D300&response-content-disposition=filename%3D%22bnha.jpg%22&response-content-type=image%2Fjpeg&X-Amz-Signature=7f52e504f61a1028af5dd305e7425f7661d98aa2aa0c976618e1c0befb3d498e",
     ARating: "10/10",
     MRating: "-/10",
     Episode: "--Ep | 7Se",
