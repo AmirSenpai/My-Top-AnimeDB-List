@@ -3,32 +3,41 @@ import { BiHome } from "react-icons/bi";
 import { GrContact } from "react-icons/gr";
 import { FaDatabase } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { CiCoffeeCup } from "react-icons/ci";
+import { PiCoffeeFill } from "react-icons/pi";
 function Nav() {
   return (
     <>
       <ul className="flex gap-10 items-center justify-center pb-3">
-        <button className="bg-amber-50 md:p-2 p-2.5 text-center md:text-2xl text-xl font-bold rounded hover:bg-amber-300 transition-all">
-          <a href="#">
+        <a href="#">
+          <button className="bg-amber-50 md:p-2 p-2.5 text-center md:text-2xl text-xl font-bold rounded hover:bg-amber-300 transition-all">
             <BiHome />
-          </a>
-        </button>
-        <button className="bg-amber-50 md:p-2 p-2.5 text-center md:text-2xl text-xl font-bold rounded hover:bg-amber-300 transition-all">
-          <a href="#">
+          </button>
+        </a>
+        <a href="#">
+          <button className="bg-amber-50 md:p-2 p-2.5 text-center md:text-2xl text-xl font-bold rounded hover:bg-amber-300 transition-all">
             <GrContact />
-          </a>
-        </button>
-        <button className="bg-amber-50 md:p-2 p-2.5 text-center md:text-2xl text-xl font-bold rounded hover:bg-amber-300 transition-all">
-          <a href="#">
+          </button>
+        </a>
+        <a href="#">
+          <button className="bg-amber-50 md:p-2 p-2.5 text-center md:text-2xl text-xl font-bold rounded hover:bg-amber-300 transition-all">
             <FaDatabase />
-          </a>
-        </button>
+          </button>
+        </a>
         {/*<button className="bg-amber-50 p-2 text-center text-lg font-bold rounded hover:bg-amber-300 transition-all"><a href="#">d</a></button>*/}
-        {/*<button className="bg-amber-50 p-2 text-center text-lg font-bold rounded hover:bg-amber-300 transition-all"><a href="#">d</a></button>*/}
-        <button className="bg-amber-50 md:p-2 p-2.5 text-center md:text-2xl text-xl font-bold rounded hover:bg-amber-300 transition-all">
-          <a href="https://github.com/">
+        <a href="https://www.coffeebede.com/amirhosseind" target="_blank">
+          <button className="bg-amber-50 md:p-2 p-2.5 text-center md:text-2xl text-xl font-bold rounded hover:bg-amber-300 transition-all">
+            <PiCoffeeFill />
+          </button>
+        </a>
+        <a
+          href="https://github.com/AmirSenpai/My-Top-AnimeDB-List"
+          target="_blank"
+        >
+          <button className="bg-amber-50 md:p-2 p-2.5 text-center md:text-2xl text-xl font-bold rounded hover:bg-amber-300 transition-all">
             <FaGithub />
-          </a>
-        </button>
+          </button>
+        </a>
       </ul>
     </>
   );
