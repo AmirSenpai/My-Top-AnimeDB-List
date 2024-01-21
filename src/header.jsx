@@ -2,17 +2,20 @@ import React from "react";
 import nav from "./nav.jsx";
 import Nav from "./nav.jsx";
 
-function Header(){
-    return(
-        <>
-            <div className="bg-gray-800 w-11/12 m-auto rounded-b-xl">
-            <h1 className="text-5xl font-vazir pt-5 text-center text-white">Amir's Top Anime's + DB & List</h1>
-                <p className="text-2xl text-center text-white py-5">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, veniam.
-                </p>
-                <Nav />
-            </div>
-        </>
-    )
+function Header() {
+  return (
+    <>
+      <div className="bg-custom-100-0 md:w-full m-auto md:rounded-b-xl">
+        <h1 className="md:text-5xl font-bold text-2xl font-vazir md:pt-5 pt-3 pl-5 text-left text-white">
+          Amir's Top 10 Anime's DB
+        </h1>
+        <p className="md:text-2xl text-lg text-left pl-3 text-white md:py-5 py-3">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum,
+          veniam.
+        </p>
+        <Nav />
+      </div>
+    </>
+  );
 }
-export default Header
+export default Header;

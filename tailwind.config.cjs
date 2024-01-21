@@ -14,7 +14,13 @@ export default {
       },
       width: {
         100: ["600px"],
-      }
+      },
+      backgroundColor: {
+        custom: {
+          100: ["#0e0e0e"],
+          200: ["#282828"],
+        },
+      },
     },
   },
   plugins: [],

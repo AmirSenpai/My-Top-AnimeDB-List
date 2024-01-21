@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import Header from "./header.jsx";
@@ -9,12 +9,12 @@ function App() {
 
   return (
     <>
-      <div className="bg-stone-300 h-screen2">
-    <Header />
-        <Body/>
+      <div className="bg-custom-200-0 h-screen2">
+        <Header />
+        <Body />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
