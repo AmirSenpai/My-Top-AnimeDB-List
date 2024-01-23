@@ -47,12 +47,12 @@ function Body() {
               alt={item.EngName}
             />
             <span
-              className="flex flex-row md:gap-4 gap-2"
+              className="flex flex-row md:gap-4 gap-0.5"
               id={`span-main-${index}`}
             >
               <p
                 id={`Date-${index}`}
-                className="md:text-xl px-3 md:px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-white p-1 rounded-lg md:w-auto w-auto text-xs text-center"
+                className="md:text-xl px-2 md:px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-white p-1 rounded-lg md:w-auto w-auto text-xs text-center"
               >
                 {item.Date}
               </p>
