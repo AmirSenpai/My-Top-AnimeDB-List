@@ -14,12 +14,16 @@ export default {
       },
       width: {
         100: ["600px"],
+        200: ["800px"],
       },
       backgroundColor: {
         custom: {
           100: ["#0e0e0e"],
           200: ["#282828"],
         },
+      },
+      fontSize: {
+        xxs: ["0.6rem"],
       },
     },
   },
