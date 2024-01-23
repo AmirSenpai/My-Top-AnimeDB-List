@@ -6,20 +6,19 @@ import { FaGithub } from "react-icons/fa";
 import { PiCoffeeFill } from "react-icons/pi";
 
 function Nav() {
-
-  // const openHtmlFileInNewTab = () => {
-  //   // Handle the logic to load your HTML file
-  //   // For simplicity, let's assume you have an HTML file named "example.html"
-  //   window.open('./public/updatelog.html', '_blank');
-  // };
   const openHtmlFileInNewTab = () => {
-    // Use the absolute path to the HTML file in the public folder
-    // For example, if your HTML file is in the public folder, provide the full path
-    const htmlFilePath = process.env.PUBLIC_URL + '/updatelog.html';
-  
-    // Open the HTML file in a new tab
-    window.open(htmlFilePath, '_blank');
+    // Handle the logic to load your HTML file
+    // For simplicity, let's assume you have an HTML file named "example.html"
+    window.open("./public/index.html", "_blank");
   };
+  // const openHtmlFileInNewTab = () => {
+  //   // Use the absolute path to the HTML file in the public folder
+  //   // For example, if your HTML file is in the public folder, provide the full path
+  //   const htmlFilePath = process.env.PUBLIC_URL + './public/updatelog.html';
+
+  //   // Open the HTML file in a new tab
+  //   window.open(htmlFilePath, '_blank');
+  // };
 
   return (
     <>
@@ -30,8 +29,7 @@ function Nav() {
           </button>
         </a>
         <a href="#" onClick={openHtmlFileInNewTab}>
-          <button
-          className="bg-amber-50 md:p-2 p-2.5 text-center md:text-2xl text-xl font-bold rounded hover:bg-amber-300 transition-all">
+          <button className="bg-amber-50 md:p-2 p-2.5 text-center md:text-2xl text-xl font-bold rounded hover:bg-amber-300 transition-all">
             <MdOutlineUpdate />
           </button>
         </a>

@@ -17,7 +17,8 @@ export default [
     JpName: "lorem",
     Date: "2011 - 2013",
     Genre: "Shonen",
-    Picture: "https://media.publit.io/file/fullmetal-alchemist-brotherhood-blu-ray-kv-1154021.jpg",
+    Picture:
+      "https://media.publit.io/file/fullmetal-alchemist-brotherhood-blu-ray-kv-1154021.jpg",
     ARating: "10/10",
     MRating: "9/10",
     Episode: "64Ep | 1Se",
