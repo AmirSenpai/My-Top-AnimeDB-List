@@ -8,7 +8,7 @@ import { PiCoffeeFill } from "react-icons/pi";
 function Nav() {
   const openHtmlFileInNewTab = () => {
     // Use the correct path to your HTML file
-    window.open('./file.html', '_blank');
+    window.open('./Logs.html', '_blank');
   };
 
   return (
