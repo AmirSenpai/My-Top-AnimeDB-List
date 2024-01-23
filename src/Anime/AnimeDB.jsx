@@ -52,19 +52,19 @@ function Body() {
             >
               <p
                 id={`Date-${index}`}
-                className="md:text-xl px-5 font-semibold -mb-2 mt-1 border-2 border-black bg-white p-1 rounded-lg md:w-auto w-auto text-sm text-center"
+                className="md:text-xl px-3 md:px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-white p-1 rounded-lg md:w-auto w-auto text-xs text-center"
               >
                 {item.Date}
               </p>
               <p
                 id={`Genre-${index}`}
-                className="md:text-xl px-5 font-semibold -mb-2 mt-1 border-2 border-black bg-white p-1 rounded-lg md:w-auto w-auto text-sm text-center"
+                className="md:text-xl px-3 md:px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-white p-1 rounded-lg md:w-auto w-auto text-xs text-center"
               >
                 {item.Genre}
               </p>
               <p
                 id={`Episodes-${index}`}
-                className="md:text-xl px-4 font-semibold -mb-2 mt-1 border-2 border-black bg-white p-1 rounded-lg md:w-auto w-auto text-sm text-center"
+                className="md:text-xl px-3 md:px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-white p-1 rounded-lg md:w-auto w-auto text-xs text-center"
               >
                 {item.Episode}
               </p>
@@ -77,7 +77,7 @@ function Body() {
             </span>
             <p
               id={`Description-${index}`}
-              className="md:text-xl px-3 font-semibold -mb-2 mt-1 border-2 border-black bg-emerald-300 p-1 rounded-lg md:w-auto w-auto text-sm text-center"
+              className="md:text-xl px-3 m-7 font-semibold -mb-2 mt-1 border-2 border-black bg-emerald-300 p-1 rounded-lg md:w-200 w-auto text-sm text-center"
             >
               {item.Description}
             </p>

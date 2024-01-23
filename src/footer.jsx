@@ -28,13 +28,20 @@ function Footer() {
   var namedMonth = months[test.getMonth()];
   return (
     <>
-      <div className="bg-custom-100-0 text-white py-7 rounded-t-lg">
-        <p className="text-center pt-2 font-semibold text-lg">
-          &copy; {new Date().getFullYear()} Amir Hossein Doosti - AmirSenpai.
-        </p>
-        <p className="text-center text-xl">
+      <div className="text-center bg-custom-100-0 text-white md:py-7 py-3 md:text-lg text-sm">
+        <p>
           Today is {namedDay} : {test.getFullYear()}/{namedMonth}/
           {test.getDate()}
+        </p>
+        <p className=" pt-2 font-semibold">
+          CopyRight &copy; {new Date().getFullYear()} Amir Hossein Doosti |{" "}
+          <a className="text-cyan-700" href="https://github.com/AmirSenpai">
+            AmirSenpai.
+          </a>
+        </p>
+        <p className="pt-4 text-cyan-400">
+          • Made With React.js, Vite.js and TailwindCss •<br />• Compiled With
+          GitHub Pages and Node.js •
         </p>
       </div>
     </>
