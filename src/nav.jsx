@@ -7,10 +7,18 @@ import { PiCoffeeFill } from "react-icons/pi";
 
 function Nav() {
 
+  // const openHtmlFileInNewTab = () => {
+  //   // Handle the logic to load your HTML file
+  //   // For simplicity, let's assume you have an HTML file named "example.html"
+  //   window.open('./public/updatelog.html', '_blank');
+  // };
   const openHtmlFileInNewTab = () => {
-    // Handle the logic to load your HTML file
-    // For simplicity, let's assume you have an HTML file named "example.html"
-    window.open('./public/updatelog.html', '_blank');
+    // Use the absolute path to the HTML file in the public folder
+    // For example, if your HTML file is in the public folder, provide the full path
+    const htmlFilePath = process.env.PUBLIC_URL + '/updatelog.html';
+  
+    // Open the HTML file in a new tab
+    window.open(htmlFilePath, '_blank');
   };
 
   return (
