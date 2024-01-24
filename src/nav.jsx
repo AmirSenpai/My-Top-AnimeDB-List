@@ -10,6 +10,9 @@ function Nav() {
     // Use the correct path to your HTML file
     window.open("./Logs.html", "_blank");
   };
+  const NotAvailable = () => {
+    confirm("this page is still under Development, please return at another time💙")
+  }
 
   return (
     <>
@@ -24,7 +27,7 @@ function Nav() {
             <MdOutlineUpdate />
           </button>
         </a>
-        <a href="#">
+        <a href="#" onClick={NotAvailable}>
           <button className="bg-amber-50 md:p-2 p-2.5 text-center md:text-2xl text-xl font-bold rounded hover:bg-amber-300 transition-all">
             <FaDatabase />
           </button>
