@@ -68,16 +68,16 @@ export default [
     Rank: "#5",
   },
 
-  // {
-  //   EngName: "lorem",
-  //   JpName: "lorem",
-  //   Date: "2023 - 2024",
-  //   Genre: "Shonen",
-  //   Picture: "src/",
-  //   ARating: "10/10",
-  //   MRating: "9/10",
-  //   Episode: "12Eps",
-  //   Description: "lorem lorem lorem",
-  //   Rank: "#4",
-  // },
+  {
+    EngName: "lorem",
+    JpName: "lorem",
+    Date: "2023 - 2024",
+    Genre: "Shonen",
+    Picture: "src/",
+    ARating: "10/10",
+    MRating: "9/10",
+    Episode: "12Eps",
+    Description: "lorem lorem lorem",
+    Rank: "#4",
+  },
 ];
