@@ -22,11 +22,9 @@ function Body() {
   return (
     <>
       <div>
-            <h2
-              className="md:text-xl px-2 font-semibold mt-4 border-2 border-black bg-indigo-300 p-1 rounded-lg m-auto mb-2 md:w-1/2 w-96 text-base text-center"
-            >
-              👇 The List Of Top 10 Anime's, Ranked 👇
-            </h2>
+        <h2 className="md:text-xl px-2 font-semibold mt-4 border-2 border-black bg-indigo-300 p-1 rounded-lg m-auto mb-2 md:w-1/2 w-96 text-base text-center">
+          👇 The List Of Top 10 Anime's, Ranked 👇
+        </h2>
         {AnimeInfos.map((item, index) => (
           <div
             key={index}

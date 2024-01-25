@@ -11,8 +11,10 @@ function Nav() {
     window.open("./Logs.html", "_blank");
   };
   const NotAvailable = () => {
-    confirm("this page is still under Development, please return at another time💙")
-  }
+    confirm(
+      "this page is still under Development, please return at another time💙",
+    );
+  };
 
   return (
     <>
