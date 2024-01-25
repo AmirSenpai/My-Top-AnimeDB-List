@@ -4,6 +4,10 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+        'pulse-slow': 'pulse 2s linear infinite'
+      },
       fontFamily: {
         inter: ["inter", "serif"],
         tahoma: ["tahoma"],
