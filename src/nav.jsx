@@ -38,6 +38,9 @@ function Nav() {
           </button>
         </a>
         <a href="https://www.coffeebede.com/amirhosseind" target="_blank">
+          {/* <span class="bg-yellow-950 text-white text-xs font-light me-2 px-2 py-0.5 rounded-full absolute -mt-3 ml-4">
+            $Coffee
+          </span> */}
           <button className="bg-amber-50 md:p-2 p-2.5 text-center md:text-2xl text-xl font-bold rounded hover:bg-amber-300 transition-all ease-in-out delay-100">
             <PiCoffeeFill />
           </button>

@@ -16,6 +16,7 @@ export default {
       },
       height: {
         screen2: ["225vh"],
+        70: ["16.5rem"],
       },
       width: {
         100: ["600px"],
