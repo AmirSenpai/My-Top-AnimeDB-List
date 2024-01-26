@@ -29,7 +29,7 @@ function Nav() {
             NEW
           </span>
           <button className="bg-amber-50 md:p-2 p-2.5 text-center md:text-2xl text-xl font-bold rounded hover:bg-amber-300 transition-all ease-in-out delay-100">
-            <MdOutlineUpdate className="animate-spin-slow" />ac383e11185f557d358411f2498a40afe63668d
+            <MdOutlineUpdate className="animate-spin-slow" />
           </button>
         </a>
         <a href="#" onClick={NotAvailable}>
