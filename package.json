@@ -1,7 +1,11 @@
 {
   "name": "animedb-list",
   "private": true,
+<<<<<<< HEAD
   "version": "1.6.0",
+=======
+  "version": "1.5.4",
+>>>>>>> aac383e11185f557d358411f2498a40afe63668d
   "type": "module",
   "scripts": {
     "dev": "vite",
