@@ -29,16 +29,16 @@ export default [
   },
 
   {
-    EngName: "FireForce",
-    JpName: "炎炎ノ消防隊",
-    Date: "2019 - 2020",
+    EngName: "Demon Slayer",
+    JpName: "鬼滅の刃",
+    Date: "2019 - Present",
     Genre: " Action, Fantasy",
-    Picture: "https://media.publit.io/file/bvdZcGpE6YLI61Yuv40j45pxGut.png",
+    Picture: "https://media.publit.io/file/Demon-Slayer2-1.jpg",
     ARating: "9/10",
-    MRating: "7/10",
-    Episode: "48 Eps | 2 Seasons",
+    MRating: "9/10",
+    Episode: "45 Eps | 3 Seasons",
     Description:
-      "Spontaneous Human Combustion: a chaotic phenomenon that has plagued humanity for years, randomly transforming ordinary people into flaming, violent creatures known as Infernals,Young and eager third-generation pyrokinetic Shinra Kusakabe, nicknamed Devil's Footprints for his explosive ability to ignite his feet at will...",
+      "Tanjiro Kamado is a kind-hearted and intelligent boy who lives with his family in the mountains. After his father's death, he became his family's breadwinner and travels to the nearby village to sell charcoal. One day, Tanjiro came home and discovers his family was slaughtered by a demon. His sister Nezuko is the sole survivor of the incident. She has been transformed into a...",
     Rank: "#3",
   },
 
@@ -55,6 +55,20 @@ export default [
       "After witnessing a horrific personal loss at the hands of the invading creatures, Eren Yeager dedicates his life to their eradication by enlisting into the Survey Corps, an elite military unit that combats the merciless humanoids outside the protection of the walls. Eren, his adopted sister Mikasa Ackerman, and his childhood friend Armin Arlert...",
     Rank: "#4",
   },
+  
+  {
+    EngName: "FireForce",
+    JpName: "炎炎ノ消防隊",
+    Date: "2019 - 2020",
+    Genre: " Action, Fantasy",
+    Picture: "https://media.publit.io/file/bvdZcGpE6YLI61Yuv40j45pxGut.png",
+    ARating: "9/10",
+    MRating: "7/10",
+    Episode: "48 Eps | 2 Seasons",
+    Description:
+      "Spontaneous Human Combustion: a chaotic phenomenon that has plagued humanity for years, randomly transforming ordinary people into flaming, violent creatures known as Infernals,Young and eager third-generation pyrokinetic Shinra Kusakabe, nicknamed Devil's Footprints for his explosive ability to ignite his feet at will...",
+    Rank: "#5",
+  },
 
   {
     EngName: "Seven Deadly Sins",
@@ -68,19 +82,6 @@ export default [
     Episode: "96 Eps | 4 Seasons",
     Description:
       " The series follows Elizabeth, the third princess of the Kingdom of Liones, who is in search of the Seven Deadly Sins, a group of former Holy Knights who were disbanded after the kingdom was overthrown. She enlists the help of Meliodas and Hawk, the leader of the Seven Deadly Sins and the leader of the order of scraps disposal, to assemble the remaining members of the Seven Deadly Sins and take back the kingdom from the Holy Knights.",
-    Rank: "#5",
-  },
-
-  {
-    EngName: "Demon Slayer",
-    JpName: "-",
-    Date: "- - -",
-    Genre: "-",
-    Picture: "-",
-    ARating: "-",
-    MRating: "-",
-    Episode: "-",
-    Description: "-",
     Rank: "#6",
   },
 ];
