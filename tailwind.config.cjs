@@ -6,13 +6,8 @@ export default {
   theme: {
     extend: {
       animation: {
-<<<<<<< HEAD
         "spin-slow": "spin 3s linear infinite",
         "pulse-slow": "pulse 2s linear infinite",
-=======
-        'spin-slow': 'spin 3s linear infinite',
-        'pulse-slow': 'pulse 2s linear infinite'
->>>>>>> aac383e11185f557d358411f2498a40afe63668d
       },
       fontFamily: {
         inter: ["inter", "serif"],
