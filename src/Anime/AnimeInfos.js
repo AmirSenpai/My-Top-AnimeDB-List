@@ -85,20 +85,20 @@ export default [
     Rank: "#6",
   },
 
-  // {
-  //   EngName: "Seven Deadly Sins",
-  //   JpName: "七つの大罪",
-  //   Date: "2014 - 2021",
-  //   Genre: " Action, Adventure, Fantasy",
-  //   Picture:
-  //     "https://media.publit.io/file/artworks-000116891575-7208vq-t500x500.jpg",
-  //   ARating: "8/10",
-  //   MRating: "8/10",
-  //   Episode: "96 Eps | 4 Seasons",
-  //   Description:
-  //     " The series follows Elizabeth, the third princess of the Kingdom of Liones, who is in search of the Seven Deadly Sins, a group of former Holy Knights who were disbanded after the kingdom was overthrown. She enlists the help of Meliodas and Hawk, the leader of the Seven Deadly Sins and the leader of the order of scraps disposal, to assemble the remaining members of the Seven Deadly Sins and take back the kingdom from the Holy Knights.",
-  //   Rank: "#6",
-  // },
+  {
+    EngName: "Slime Reincarnation",
+    JpName: "",
+    Date: " - Present",
+    Genre: "Adventure, Fantasy",
+    Picture:
+      "",
+    ARating: "7/10",
+    MRating: "8/10",
+    Episode: "48 Eps | 2 Seasons",
+    Description:
+      "",
+    Rank: "#7",
+  },
 
   // {
   //   EngName: "Seven Deadly Sins",

@@ -48,7 +48,7 @@ function Body() {
               id={`Picture-${index}`}
               src={item.Picture}
               className="md:w-100 w-80 rounded-lg border-2 border-black"
-              alt={item.EngName}
+              alt={"#Img Alt :" + item.EngName}
             />
             <span
               className="flex flex-row md:gap-4 gap-0.5"
@@ -81,7 +81,7 @@ function Body() {
             </span>
             <p
               id={`Description-${index}`}
-              className="md:text-xl px-3 m-7 font-semibold -mb-2 mt-1 border-2 border-black bg-emerald-300 p-1 rounded-lg md:w-200 w-auto text-sm text-center"
+              className="md:text-xl px-3 m-7 font-semibold -mb-2 mt-1 border-2 border-black bg-cyan-300 p-1 rounded-lg md:w-200 w-auto text-sm text-center"
             >
               {item.Description}
             </p>
