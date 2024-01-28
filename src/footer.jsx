@@ -44,9 +44,33 @@ function Footer() {
           GitHub Pages and Node.js •
         </p>
         <div className="flex flex-row gap-2 items-center justify-center text-center mt-4">
-          <a target="_blank" href="https://github.com/AmirSenpai" className="bg-slate-300 p-2 text-black mx-4 rounded-md w-12 hover:bg-slate-400 transition-all md:text-2xl text-xl"><button><FaGithub/></button></a>
-          <a  onClick={ScrollTop} href="" className="bg-slate-300 mx-2 w-12 p-2 md:text-2xl text-xl font-bold rounded-md hover:bg-amber-500 transition-all text-black"><button><GoArrowUp/></button></a>
-          <a target="_blank" href="" className="bg-slate-300 p-2 text-black mx-4 rounded-md w-12 hover:bg-slate-400 transition-all md:text-2xl text-xl"><button><FaDiscord/></button></a>
+          <a
+            target="_blank"
+            href="https://github.com/AmirSenpai"
+            className="bg-slate-300 p-2 text-black mx-4 rounded-md w-12 hover:bg-slate-400 transition-all md:text-2xl text-xl"
+          >
+            <button>
+              <FaGithub />
+            </button>
+          </a>
+          <a
+            onClick={ScrollTop}
+            href=""
+            className="bg-slate-300 mx-2 w-12 p-2 md:text-2xl text-xl font-bold rounded-md hover:bg-amber-500 transition-all text-black"
+          >
+            <button>
+              <GoArrowUp />
+            </button>
+          </a>
+          <a
+            target="_blank"
+            href=""
+            className="bg-slate-300 p-2 text-black mx-4 rounded-md w-12 hover:bg-slate-400 transition-all md:text-2xl text-xl"
+          >
+            <button>
+              <FaDiscord />
+            </button>
+          </a>
         </div>
         <p className=" pt-5 font-semibold pb-0">
           CopyRight &copy; {new Date().getFullYear()} Amir Hossein Doosti |{" "}

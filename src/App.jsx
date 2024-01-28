@@ -10,7 +10,7 @@ function App() {
     <>
       <div className="bg-custom-300-0 h-full">
         <Header />
-        <Body/>
+        <Body />
         <Footer />
       </div>
     </>

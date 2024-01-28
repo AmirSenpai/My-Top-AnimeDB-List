@@ -90,13 +90,11 @@ export default [
     JpName: "",
     Date: " - Present",
     Genre: "Adventure, Fantasy",
-    Picture:
-      "",
+    Picture: "",
     ARating: "7/10",
     MRating: "8/10",
     Episode: "48 Eps | 2 Seasons",
-    Description:
-      "",
+    Description: "",
     Rank: "#7",
   },
 

@@ -32,7 +32,7 @@ function Body() {
             id={`item-${index}`}
             className="flex flex-col m-auto gap-5 items-center border-x-2 px-4 md:mx-7 mx-4 my-4 text-white"
           >
-            <hr className="h-1 w-full rounded-3xl bg-rose-600 border-none"/>
+            <hr className="h-1 w-full rounded-3xl bg-rose-600 border-none" />
             <h2
               id={`EngName-${index}`}
               className="md:text-xl px-7 font-semibold -mb-4 mt-4 border-2 border-black bg-lime-500 p-1 rounded-lg md:w-auto w-auto text-base text-center text-black"
@@ -103,7 +103,7 @@ function Body() {
                 AnimeList Rating: {item.MRating}
               </p>
             </span>
-            <hr className="h-1 w-full rounded-3xl bg-rose-600 border-none"/>
+            <hr className="h-1 w-full rounded-3xl bg-rose-600 border-none" />
           </div>
         ))}
         {/* <hr className="h-1  border-none bg-red-800 mb-2"/> */}

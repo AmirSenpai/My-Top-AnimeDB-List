@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const colors = require('tailwindcss/colors')
+const colors = require("tailwindcss/colors");
 // const withMT = require("@material-tailwind/react/utils/withMT");
 export default {
   content: ["./index.html", "./public/**/*.html", "./src/**/*.{jsx,js}"],
@@ -20,20 +20,20 @@ export default {
         70: ["16.5rem"],
       },
       width: {
-        85:["340px"],
+        85: ["340px"],
         100: ["600px"],
         200: ["800px"],
-        300: ["850px"]
+        300: ["850px"],
       },
       colors: {
-        'light-blue': colors.lightBlue,
+        "light-blue": colors.lightBlue,
         cyan: colors.cyan,
       },
       backgroundColor: {
         custom: {
           100: ["#0e0e0e"],
           200: ["#282828"],
-          300: ["#171717"]
+          300: ["#171717"],
         },
       },
       fontSize: {
@@ -41,6 +41,5 @@ export default {
       },
     },
   },
-  plugins: [
-  ],
+  plugins: [],
 };
