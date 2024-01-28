@@ -30,18 +30,18 @@ function Body() {
           <div
             key={index}
             id={`item-${index}`}
-            className="flex flex-col m-auto gap-5 items-center border-x-2 px-4 md:mx-7 mx-4 my-4 text-black"
+            className="flex flex-col m-auto gap-5 items-center border-x-2 px-4 md:mx-7 mx-4 my-4 text-black text-white"
           >
             <hr className="h-1 w-full rounded-3xl bg-rose-600 border-none"/>
             <h2
               id={`EngName-${index}`}
-              className="md:text-xl px-7 font-semibold -mb-4 mt-4 border-2 border-black bg-lime-500 p-1 rounded-lg md:w-auto w-auto text-base text-center"
+              className="md:text-xl px-7 font-semibold -mb-4 mt-4 border-2 border-black bg-lime-500 p-1 rounded-lg md:w-auto w-auto text-base text-center text-black"
             >
               English Name: {item.EngName}
             </h2>
             <h2
               id={`JpName-${index}`}
-              className="md:text-xl px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-green-500 p-1 rounded-lg md:w-auto w-auto text-base text-center"
+              className="md:text-xl px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-green-500 p-1 rounded-lg md:w-auto w-auto text-sm text-center text-black"
             >
               Japanese Name: {item.JpName}
             </h2>
@@ -57,25 +57,25 @@ function Body() {
             >
               <p
                 id={`Date-${index}`}
-                className="md:text-xl px-2 md:px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-violet-500 p-1 rounded-lg md:w-auto w-auto text-xs text-center"
+                className="md:text-xl px-2 md:px-7 font-bold -mb-2 mt-1 border-2 border-black bg-violet-400 p-1 rounded-lg md:w-auto w-auto text-xs text-center"
               >
                 {item.Date}
               </p>
               <p
                 id={`Genre-${index}`}
-                className="md:text-xl px-3 md:px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-purple-500 p-1 rounded-lg md:w-auto w-auto text-xs text-center"
+                className="md:text-xl px-3 md:px-7 font-bold -mb-2 mt-1 border-2 border-black bg-purple-400 p-1 rounded-lg md:w-auto w-auto text-xs text-center"
               >
                 {item.Genre}
               </p>
               <p
                 id={`Episodes-${index}`}
-                className="md:text-xl px-3 md:px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-fuchsia-500 p-1 rounded-lg md:w-auto w-auto text-xs text-center"
+                className="md:text-xl px-3 md:px-7 font-bold -mb-2 mt-1 border-2 border-black bg-fuchsia-400 p-1 rounded-lg md:w-auto w-auto text-xs text-center"
               >
                 {item.Episode}
               </p>
               <p
                 id={`Rank-${index}`}
-                className="md:text-xl px-2 font-semibold -mb-2 mt-1 border-2 border-black bg-amber-400 p-1 rounded-lg md:w-auto w-auto text-sm text-center"
+                className="md:text-xl px-2 font-semibold text-black -mb-2 mt-1 border-2 border-black bg-amber-400 p-1 rounded-lg md:w-auto w-auto text-sm text-center"
               >
                 {item.Rank}
               </p>
@@ -92,13 +92,13 @@ function Body() {
             >
               <p
                 id={`ARating-${index}`}
-                className="md:text-xl px-5 font-semibold mb-2 mt-1 border-2 border-black bg-blue-500 p-1 rounded-lg md:w-auto w-auto text-sm text-center"
+                className="md:text-xl px-5 font-semibold text-black mb-2 mt-1 border-2 border-black bg-blue-400 p-1 rounded-lg md:w-auto w-auto text-sm text-center"
               >
                 My Rating: {item.ARating}
               </p>
               <p
                 id={`MRating-${index}`}
-                className="md:text-xl px-5 font-semibold mb-2 mt-1 border-2 border-black bg-sky-500 p-1 rounded-lg md:w-auto w-auto text-sm text-center"
+                className="md:text-xl px-5 font-semibold text-black mb-2 mt-1 border-2 border-black bg-sky-400 p-1 rounded-lg md:w-auto w-auto text-sm text-center"
               >
                 AnimeList Rating: {item.MRating}
               </p>
