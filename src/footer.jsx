@@ -34,12 +34,12 @@ function Footer() {
   };
   return (
     <>
-      <div className="text-center bg-custom-100-0 text-white md:py-7 py-3 md:text-lg text-sm">
+      <div className="text-center bg-custom-100-0 text-white border-amber-500 border-t-2 border-x-2 rounded-t-lg md:py-7 py-3 md:text-lg text-sm">
         <p>
           Today is {namedDay} : {test.getFullYear()}/{namedMonth}/
           {test.getDate()}
         </p>
-        <p className="pt-4 text-cyan-400">
+        <p className="pt-4 text-teal-500">
           • Made With React.js, Vite.js and TailwindCss •<br />• Compiled With
           GitHub Pages and Node.js •
         </p>

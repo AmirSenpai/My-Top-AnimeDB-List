@@ -8,9 +8,9 @@ function App() {
 
   return (
     <>
-      <div className="bg-custom-200-0 h-full">
+      <div className="bg-custom-300-0 h-full">
         <Header />
-        <Body />
+        <Body/>
         <Footer />
       </div>
     </>

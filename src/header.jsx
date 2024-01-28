@@ -7,7 +7,7 @@ function Header() {
   const appVersion = packageJson.version;
   return (
     <>
-      <div className="bg-custom-100-0 md:w-full m-auto md:rounded-b-xl md:h-70 h-56">
+      <div className="bg-custom-100-0 md:w-full m-auto md:rounded-b-lg md:h-70 h-56 border-amber-500 border-b-2 border-x-2">
         <h1 className="md:text-5xl font-bold text-2xl font-vazir md:pt-5 pt-3 pl-5 text-left text-white">
           Amir's Top 10 Anime's DB
         </h1>

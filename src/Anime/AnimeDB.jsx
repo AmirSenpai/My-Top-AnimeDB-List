@@ -21,7 +21,7 @@ function Body() {
   }, []);
 
   return (
-    <>
+    <div>
       <div>
         <h2 className="md:text-xl px-2 font-semibold mt-4 border-2 border-black bg-indigo-300 p-1 rounded-lg m-auto mb-2 md:w-1/2 w-96 text-base text-center">
           👇 The List Of Top 10 Anime's, Ranked 👇
@@ -30,17 +30,18 @@ function Body() {
           <div
             key={index}
             id={`item-${index}`}
-            className="flex flex-col m-auto gap-5 items-center border-2 border-black rounded-lg my-4"
+            className="flex flex-col m-auto gap-5 items-center border-x-2 px-4 md:mx-7 mx-4 my-4 text-black"
           >
+            <hr className="h-1 w-full rounded-3xl bg-rose-600 border-none"/>
             <h2
               id={`EngName-${index}`}
-              className="md:text-xl px-7 font-semibold -mb-4 mt-4 border-2 border-black bg-white p-1 rounded-lg md:w-auto w-auto text-base text-center"
+              className="md:text-xl px-7 font-semibold -mb-4 mt-4 border-2 border-black bg-lime-500 p-1 rounded-lg md:w-auto w-auto text-base text-center"
             >
               English Name: {item.EngName}
             </h2>
             <h2
               id={`JpName-${index}`}
-              className="md:text-xl px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-white p-1 rounded-lg md:w-auto w-auto text-base text-center"
+              className="md:text-xl px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-green-500 p-1 rounded-lg md:w-auto w-auto text-base text-center"
             >
               Japanese Name: {item.JpName}
             </h2>
@@ -56,19 +57,19 @@ function Body() {
             >
               <p
                 id={`Date-${index}`}
-                className="md:text-xl px-2 md:px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-white p-1 rounded-lg md:w-auto w-auto text-xs text-center"
+                className="md:text-xl px-2 md:px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-violet-500 p-1 rounded-lg md:w-auto w-auto text-xs text-center"
               >
                 {item.Date}
               </p>
               <p
                 id={`Genre-${index}`}
-                className="md:text-xl px-3 md:px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-white p-1 rounded-lg md:w-auto w-auto text-xs text-center"
+                className="md:text-xl px-3 md:px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-purple-500 p-1 rounded-lg md:w-auto w-auto text-xs text-center"
               >
                 {item.Genre}
               </p>
               <p
                 id={`Episodes-${index}`}
-                className="md:text-xl px-3 md:px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-white p-1 rounded-lg md:w-auto w-auto text-xs text-center"
+                className="md:text-xl px-3 md:px-7 font-semibold -mb-2 mt-1 border-2 border-black bg-fuchsia-500 p-1 rounded-lg md:w-auto w-auto text-xs text-center"
               >
                 {item.Episode}
               </p>
@@ -81,7 +82,7 @@ function Body() {
             </span>
             <p
               id={`Description-${index}`}
-              className="md:text-xl px-3 m-7 font-semibold -mb-2 mt-1 border-2 border-black bg-cyan-300 p-1 rounded-lg md:w-200 w-auto text-sm text-center"
+              className="md:text-xl px-3 m-7 font-semibold -mb-2 mt-1 border-2 border-black bg-indigo-500 p-1 rounded-lg md:w-200 w-auto text-sm text-center"
             >
               {item.Description}
             </p>
@@ -91,22 +92,24 @@ function Body() {
             >
               <p
                 id={`ARating-${index}`}
-                className="md:text-xl px-5 font-semibold mb-2 mt-1 border-2 border-black bg-white p-1 rounded-lg md:w-auto w-auto text-sm text-center"
+                className="md:text-xl px-5 font-semibold mb-2 mt-1 border-2 border-black bg-blue-500 p-1 rounded-lg md:w-auto w-auto text-sm text-center"
               >
                 My Rating: {item.ARating}
               </p>
               <p
                 id={`MRating-${index}`}
-                className="md:text-xl px-5 font-semibold mb-2 mt-1 border-2 border-black bg-white p-1 rounded-lg md:w-auto w-auto text-sm text-center"
+                className="md:text-xl px-5 font-semibold mb-2 mt-1 border-2 border-black bg-sky-500 p-1 rounded-lg md:w-auto w-auto text-sm text-center"
               >
                 AnimeList Rating: {item.MRating}
               </p>
             </span>
+            <hr className="h-1 w-full rounded-3xl bg-rose-600 border-none"/>
           </div>
         ))}
         {/* <hr className="h-1  border-none bg-red-800 mb-2"/> */}
         {temp.map((item) => (
-          <div className="rounded-md border-black border-2 mb-1">
+          <div className="rounded-md mb-1">
+            {/* border-2 border-blue-200 */}
             <p className="md:text-xl px-5 font-semibold mb-2 mt-1 border-2 border-black bg-slate-400 p-1 rounded-lg md:w-1/2 m-auto w-2/3 text-sm text-center">
               {item.ComingSoon}
             </p>
@@ -116,7 +119,7 @@ function Body() {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 export default Body;
