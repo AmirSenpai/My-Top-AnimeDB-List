@@ -30,7 +30,7 @@ function Body() {
           <div
             key={index}
             id={`item-${index}`}
-            className="flex flex-col m-auto gap-5 items-center border-x-2 px-4 md:mx-7 mx-4 my-4 text-black text-white"
+            className="flex flex-col m-auto gap-5 items-center border-x-2 px-4 md:mx-7 mx-4 my-4 text-white"
           >
             <hr className="h-1 w-full rounded-3xl bg-rose-600 border-none"/>
             <h2
@@ -48,7 +48,7 @@ function Body() {
             <img
               id={`Picture-${index}`}
               src={item.Picture}
-              className="md:w-100 w-80 rounded-lg border-2 border-black"
+              className="md:w-100 w-80 rounded-lg border-2 border-white"
               alt={"#Img Alt :" + item.EngName}
             />
             <span
@@ -57,19 +57,19 @@ function Body() {
             >
               <p
                 id={`Date-${index}`}
-                className="md:text-xl px-2 md:px-7 font-bold -mb-2 mt-1 border-2 border-black bg-violet-400 p-1 rounded-lg md:w-auto w-auto text-xs text-center"
+                className="md:text-xl px-2 md:px-7 font-bold -mb-2 mt-1 border-2 border-black bg-violet-400 p-1 rounded-lg md:w-auto w-auto text-xs text-center text-black"
               >
                 {item.Date}
               </p>
               <p
                 id={`Genre-${index}`}
-                className="md:text-xl px-3 md:px-7 font-bold -mb-2 mt-1 border-2 border-black bg-purple-400 p-1 rounded-lg md:w-auto w-auto text-xs text-center"
+                className="md:text-xl px-3 md:px-7 font-bold -mb-2 mt-1 border-2 border-black bg-purple-400 p-1 rounded-lg md:w-auto w-auto text-xs text-center text-black"
               >
                 {item.Genre}
               </p>
               <p
                 id={`Episodes-${index}`}
-                className="md:text-xl px-3 md:px-7 font-bold -mb-2 mt-1 border-2 border-black bg-fuchsia-400 p-1 rounded-lg md:w-auto w-auto text-xs text-center"
+                className="md:text-xl px-3 md:px-7 font-bold -mb-2 mt-1 border-2 border-black bg-fuchsia-400 p-1 rounded-lg md:w-auto w-auto text-xs text-center text-black"
               >
                 {item.Episode}
               </p>
@@ -82,7 +82,7 @@ function Body() {
             </span>
             <p
               id={`Description-${index}`}
-              className="md:text-xl px-3 m-7 font-semibold -mb-2 mt-1 border-2 border-black bg-indigo-500 p-1 rounded-lg md:w-200 w-auto text-sm text-center"
+              className="md:text-xl px-3 m-7 font-semibold -mb-2 mt-1 border-2 border-black bg-indigo-500 p-1 rounded-lg md:w-200 w-85 text-sm text-center"
             >
               {item.Description}
             </p>

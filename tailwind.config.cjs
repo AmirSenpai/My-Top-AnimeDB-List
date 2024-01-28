@@ -20,8 +20,10 @@ export default {
         70: ["16.5rem"],
       },
       width: {
+        85:["360px"],
         100: ["600px"],
         200: ["800px"],
+        300: ["850px"]
       },
       colors: {
         'light-blue': colors.lightBlue,
