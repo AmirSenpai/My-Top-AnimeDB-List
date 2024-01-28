@@ -82,7 +82,7 @@ function Body() {
             </span>
             <p
               id={`Description-${index}`}
-              className="md:text-xl px-3 m-7 font-semibold -mb-2 mt-1 border-2 border-black bg-indigo-500 p-1 rounded-lg md:w-200 w-85 text-sm text-center"
+              className="md:text-xl px-3 m-7 font-semibold -mb-2 mt-1 border-2 border-black bg-indigo-500 p-1 rounded-lg md:w-200 w-80 text-sm text-center"
             >
               {item.Description}
             </p>
