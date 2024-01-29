@@ -110,7 +110,7 @@ function Body() {
         {temp.map((item) => (
           <div className="rounded-md mb-1">
             {/* border-2 border-blue-200 */}
-            <p className="md:text-xl px-5 font-semibold mb-2 mt-1 border-2 border-black bg-slate-400 p-1 rounded-lg md:w-1/2 m-auto w-2/3 text-sm text-center">
+            <p className="md:text-xl px-5 font-semibold mb-2 mt-1 border-2 border-black bg-red-400 p-1 rounded-lg md:w-1/2 m-auto w-2/3 text-sm text-center">
               {item.ComingSoon}
             </p>
             <p className="md:text-xl px-5 font-semibold mb-2 mt-1 border-2 border-black bg-slate-500 p-1 rounded-lg md:w-1/2 m-auto w-2/3 text-sm text-center">

@@ -86,14 +86,14 @@ export default [
   },
 
   {
-    EngName: "Slime Reincarnation",
+    EngName: "Chainsaw Man",
     JpName: "",
-    Date: " - Present",
-    Genre: "Adventure, Fantasy",
+    Date: " 2022 - 2023",
+    Genre: "Action, Fantasy",
     Picture: "",
     ARating: "7/10",
     MRating: "8/10",
-    Episode: "48 Eps | 2 Seasons",
+    Episode: "24 Eps | 1 Seasons",
     Description: "",
     Rank: "#7",
   },
