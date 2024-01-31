@@ -113,7 +113,7 @@ export default [
      Rank: "#8",
    },
 
-   {
+  //{
   //   EngName: "Seven Deadly Sins",
   //   JpName: "七つの大罪",
   //   Date: "2014 - 2021",
