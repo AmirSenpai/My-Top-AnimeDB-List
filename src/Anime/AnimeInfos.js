@@ -99,17 +99,17 @@ export default [
   },
 
    {
-     EngName: "",
-     JpName: "",
+     EngName: "-",
+     JpName: "-",
      Date: " - ",
-     Genre: " ",
+     Genre: " - ",
      Picture:
        "",
      ARating: "8/10",
      MRating: "8/10",
      Episode: "-",
      Description:
-      " ",
+      " - ",
      Rank: "#8",
    },
 
