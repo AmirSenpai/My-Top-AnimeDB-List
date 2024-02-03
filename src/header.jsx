@@ -20,14 +20,11 @@ function Header() {
             <span className="text-fuchsia-500 underline">{appVersion}</span>
             <span className="md:text-sm text-xs flex flex-row pl-1 pt-2 pb-2">
               "click on the{" "}
-              <MdOutlineUpdate className="text-white text-base mx-2" /> button
-              to see Update-Log's Page"
+              <MdOutlineUpdate className="text-white text-base mx-2 animate-spin-slow" />{" "}
+              button to see Update-Log's Page"
             </span>
           </p>
         </span>
-        {/* <p className="md:text-lg text-sm text-left pl-3 text-white md:py-2 pb-2">
-        ╘  `Amir's Top 10 Anime's Ranked` Website ╛
-        </p> */}
         <Nav />
       </div>
     </>

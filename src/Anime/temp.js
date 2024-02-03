@@ -1,6 +1,6 @@
 export default [
   {
-    ComingSoon: "More Anime's Coming Soon...",
-    LastUpdate: "27/01/2024 - 7:00",
+    ComingSoon: "The Last 3 Anime's Are Coming On Soon...",
+    LastUpdate: "03/02/2024 - 5:40PM",
   },
 ];

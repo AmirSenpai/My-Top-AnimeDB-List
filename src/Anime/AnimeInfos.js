@@ -87,31 +87,32 @@ export default [
 
   {
     EngName: "Chainsaw Man",
-    JpName: "",
-    Date: " 2022 - 2023",
-    Genre: "Action, Fantasy",
-    Picture: "",
+    JpName: "チェンソーマン",
+    Date: " 2022 - 2022",
+    Genre: `Comedy horror, Dark fantasy`,
+    Picture: "https://media.publit.io/file/chainsaw-man-fkbm.jpg",
     ARating: "7/10",
-    MRating: "8/10",
-    Episode: "24 Eps | 1 Seasons",
-    Description: "",
+    MRating: "8.5/10",
+    Episode: "12 Eps | 1 Seasons",
+    Description:
+      "Denji is robbed of a normal teenage life, left with nothing but his deadbeat father's overwhelming debt. His only companion is his pet, the chainsaw devil Pochita, with whom he slays devils for money that inevitably ends up in the yakuza's pockets. All Denji can do is dream of a good, simple life: one with delicious food and a beautiful girlfriend by his side. But an act of greedy betrayal by the yakuza leads to Denji's brutal, untimely death, crushing all hope of him ever achieving happiness. Remarkably, an old contract allows Pochita to merge with the deceased Denji and bestow devil powers on him, changing him into a",
     Rank: "#7",
   },
 
-   {
-     EngName: "-",
-     JpName: "-",
-     Date: " - ",
-     Genre: " - ",
-     Picture:
-       "",
-     ARating: "8/10",
-     MRating: "8/10",
-     Episode: "-",
-     Description:
-      " - ",
-     Rank: "#8",
-   },
+  //  {
+  //    EngName: "-",
+  //    JpName: "-",
+  //    Date: " - ",
+  //    Genre: " - ",
+  //    Picture:
+  //      "",
+  //    ARating: "8/10",
+  //    MRating: "8/10",
+  //    Episode: "-",
+  //    Description:
+  //     " - ",
+  //    Rank: "#8",
+  //  },
 
   //{
   //   EngName: "Seven Deadly Sins",
