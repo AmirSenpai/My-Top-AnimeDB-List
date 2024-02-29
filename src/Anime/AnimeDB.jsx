@@ -106,18 +106,18 @@ function Body() {
             <hr className="h-1 w-full rounded-3xl bg-rose-600 border-none" />
           </div>
         ))}
-        {/* <hr className="h-1  border-none bg-red-800 mb-2"/> */}
+        {/* <hr className="h-1  border-none bg-red-800 mb-2"/>
         {temp.map((item) => (
           <div className="rounded-md mb-1">
             {/* border-2 border-blue-200 */}
-            <p className="md:text-xl px-5 font-semibold mb-2 mt-1 border-2 border-black bg-cyan-400 p-1 rounded-lg md:w-1/2 m-auto w-2/3 text-sm text-center">
+            {/* <p className="md:text-xl px-5 font-semibold mb-2 mt-1 border-2 border-black bg-cyan-400 p-1 rounded-lg md:w-1/2 m-auto w-2/3 text-sm text-center">
               {item.ComingSoon}
             </p>
             <p className="md:text-xl px-5 font-semibold mb-2 mt-1 border-2 border-black bg-slate-500 p-1 rounded-lg md:w-1/2 m-auto w-2/3 text-sm text-center">
               Last Update : {item.LastUpdate}
             </p>
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   );
