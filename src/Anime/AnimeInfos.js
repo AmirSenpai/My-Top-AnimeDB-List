@@ -99,20 +99,20 @@ export default [
     Rank: "#7",
   },
 
-  //  {
-  //    EngName: "-",
-  //    JpName: "-",
-  //    Date: " - ",
-  //    Genre: " - ",
-  //    Picture:
-  //      "",
-  //    ARating: "8/10",
-  //    MRating: "8/10",
-  //    Episode: "-",
-  //    Description:
-  //     " - ",
-  //    Rank: "#8",
-  //  },
+  {
+    EngName: "Monster Incidents",
+    JpName: "怪物事変",
+    Date: "2021 - 2021",
+    Genre: `Action, Fantasy, Mystery`,
+    Picture:
+      "https://media.publit.io/file/MV5BMTFhZTM0NzAtOTZmMS00MTk5LThmOGYtZTA0NmE1M2VjNTZiXkEyXkFqcGdeQXVyODMyNTM0MjM-.-V1-1.jpg",
+    ARating: "8.5/10",
+    MRating: "7.3/10",
+    Episode: "12 Eps | 1 Season",
+    Description:
+      "Kohachi Inugami, a detective who specializes in the occult, arrives at a remote village in the Japanese countryside, tasked by a hostess at a local inn to investigate a string of incidents involving rotting and mutilated livestock corpses that have been appearing for seemingly no reason. While surveying, Inugami notices a peculiar young boy working in the fields. Evaded by his peers and called 'Dorotabou' for his stench, the young farmhand is surprised that anybody would take an interest in him.",
+    Rank: "#8",
+  },
 
   //{
   //   EngName: "Seven Deadly Sins",

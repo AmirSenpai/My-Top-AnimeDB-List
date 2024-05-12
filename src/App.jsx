@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import Header from "./header.jsx";
 import Body from "./Anime/AnimeDB.jsx";

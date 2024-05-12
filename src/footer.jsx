@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { GoArrowUp } from "react-icons/go";
 import { FaGithub, FaDiscord } from "react-icons/fa";
@@ -47,7 +48,7 @@ function Footer() {
           <a
             target="_blank"
             href="https://github.com/AmirSenpai"
-            className="bg-slate-300 p-2 text-black mx-4 rounded-md w-12 hover:bg-slate-400 transition-all md:text-2xl text-xl"
+            className="bg-slate-300 p-2 text-black mx-4 rounded-md w-12 hover:bg-slate-400 transition-all md:text-2xl text-xl" rel="noreferrer"
           >
             <button>
               <FaGithub />

@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// eslint-disable-next-line no-undef
 const colors = require("tailwindcss/colors");
 // const withMT = require("@material-tailwind/react/utils/withMT");
 export default {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { BiHome } from "react-icons/bi";
 import { MdOutlineUpdate } from "react-icons/md";
 import { FaDatabase } from "react-icons/fa";
@@ -25,7 +25,7 @@ function Nav() {
           </button>
         </a>
         <a href="#" onClick={openHtmlFileInNewTab}>
-          <span class="bg-red-800 text-white text-xs font-light me-2 px-2 py-0.5 rounded-full absolute -mt-3 -ml-5">
+          <span className="bg-red-800 text-white text-xs font-light me-2 px-2 py-0.5 rounded-full absolute -mt-3 -ml-5">
             NEW
           </span>
           <button className="bg-amber-50 md:p-2 p-2.5 text-center md:text-2xl text-xl font-bold rounded hover:bg-amber-300 transition-all ease-in-out delay-100">
@@ -37,7 +37,11 @@ function Nav() {
             <FaDatabase />
           </button>
         </a>
-        <a href="https://www.coffeebede.com/amirhosseind" target="_blank">
+        <a
+          href="https://www.coffeebede.com/amirhosseind"
+          target="_blank"
+          rel="noreferrer"
+        >
           {/* <span class="bg-yellow-950 text-white text-xs font-light me-2 px-2 py-0.5 rounded-full absolute -mt-3 ml-4">
             $Coffee
           </span> */}
