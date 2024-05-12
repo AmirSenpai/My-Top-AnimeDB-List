@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { BiHome } from "react-icons/bi";
 import { MdOutlineUpdate } from "react-icons/md";
 import { FaDatabase } from "react-icons/fa";
@@ -37,11 +36,7 @@ function Nav() {
             <FaDatabase />
           </button>
         </a>
-        <a
-          href="https://www.coffeebede.com/amirhosseind"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://www.coffeebede.com/amirhosseind" target="_blank" rel="noreferrer">
           {/* <span class="bg-yellow-950 text-white text-xs font-light me-2 px-2 py-0.5 rounded-full absolute -mt-3 ml-4">
             $Coffee
           </span> */}
@@ -51,7 +46,7 @@ function Nav() {
         </a>
         <a
           href="https://github.com/AmirSenpai/My-Top-AnimeDB-List"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           <button className="bg-amber-50 md:p-2 p-2.5 text-center md:text-2xl text-xl font-bold rounded hover:bg-amber-300 transition-all ease-in-out delay-100">
             <FaGithub />
